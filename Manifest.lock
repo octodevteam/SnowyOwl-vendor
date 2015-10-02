@@ -4,43 +4,33 @@ PODS:
   - CTCheckbox (0.0.3)
   - Facebook-iOS-SDK (3.19.0):
     - Bolts (~> 1.0)
-  - ISO8601DateFormatterValueTransformer (0.6.0):
+  - ISO8601DateFormatterValueTransformer (0.6.1):
     - RKValueTransformers (~> 1.1.0)
   - NSDate+TimeAgo (1.0.3)
-  - RestKit (0.23.3):
-    - RestKit/Core
+  - RestKit (0.25.0):
+    - RestKit/Core (= 0.25.0)
+  - RestKit/Core (0.25.0):
     - RestKit/CoreData
     - RestKit/Network
     - RestKit/ObjectMapping
-    - RestKit/Search
-    - RestKit/Support
-    - RestKit/Testing
-  - RestKit/Core (0.23.3):
-    - RestKit/CoreData
-    - RestKit/Network
+  - RestKit/CoreData (0.25.0):
     - RestKit/ObjectMapping
-  - RestKit/CoreData (0.23.3):
-    - RestKit/ObjectMapping
-  - RestKit/Network (0.23.3):
+  - RestKit/Network (0.25.0):
     - AFNetworking (~> 1.3.0)
     - RestKit/ObjectMapping
     - RestKit/Support
     - SOCKit
-  - RestKit/ObjectMapping (0.23.3):
-    - ISO8601DateFormatterValueTransformer (~> 0.6.0)
+  - RestKit/ObjectMapping (0.25.0):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
     - RestKit/Support
     - RKValueTransformers (~> 1.1.0)
-  - RestKit/Search (0.23.3):
-    - RestKit/CoreData
-  - RestKit/Support (0.23.3):
-    - TransitionKit (= 2.1.0)
-  - RestKit/Testing (0.23.3):
-    - RestKit/Network
-  - RKValueTransformers (1.1.0)
+  - RestKit/Support (0.25.0):
+    - TransitionKit (~> 2.1.0)
+  - RKValueTransformers (1.1.2)
   - SOCKit (1.1)
   - SSKeychain (1.2.2)
   - SVProgressHUD (1.0)
-  - TransitionKit (2.1.0)
+  - TransitionKit (2.1.1)
 
 DEPENDENCIES:
   - CTCheckbox
@@ -51,17 +41,17 @@ DEPENDENCIES:
   - SVProgressHUD
 
 SPEC CHECKSUMS:
-  AFNetworking: 80c4e0652b08eb34e25b9c0ff3c82556fe5967b4
-  Bolts: 3db0a875235e0c9042b013af13af0f00f79b102c
-  CTCheckbox: a86e835904cd6a9da8df79a1113ba79b6bf4d944
-  Facebook-iOS-SDK: cb7d74759d0b1ba546e6e6f1dde407b0d4e448d6
-  ISO8601DateFormatterValueTransformer: a705384ea6531255258e25b6480ba1180db703a0
-  NSDate+TimeAgo: f3533e0198fab05b716368b19f8c2185d53d6f3b
-  RestKit: 193a35cddae5198388977abaedad129f8acb978b
-  RKValueTransformers: b705e7b4651b9206b94600408462b74554bba969
-  SOCKit: d8d0dd3688ae1026c12367570da8fa8e1a6980fb
-  SSKeychain: cc48bd3ad24fcd9125adb9e0d23dd50b8bbd08b9
-  SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
-  TransitionKit: 6a6f3ddda38ae758778aa889dcb930e4f8d64edc
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  Bolts: e431c88fd02115d4a34016c2100bbfa4d2d5b146
+  CTCheckbox: a24f8a152e6d8bee5596e1a093dd5639986e6203
+  Facebook-iOS-SDK: 2a2f22be64360c46eb76002654aba69c0ea06f5a
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  NSDate+TimeAgo: 416f55d2696d3744c313091c5a9280d47f8238fe
+  RestKit: a4fcaf3d4bb2c204679856a46d596160bf208095
+  RKValueTransformers: 66ac5e4f077fdbe3496e792d89eeff4c3eb67701
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  SSKeychain: 88767e903ee8d274ed380e364d96b7a101235286
+  SVProgressHUD: 46088807596a795cbcb4affd92cf3f13b6ab3dda
+  TransitionKit: 3a14b6acc7cf2d1dd3e454e24dbad1cfab9a1ef1
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.38.2
